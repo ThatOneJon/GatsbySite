@@ -1,11 +1,14 @@
 import React from "react"
+import { Container } from "react-bootstrap"
 import Layout from "../components/Layout"
 
 
 export default function Contact(){
     return(
         <Layout>
-           <h1>Contact Page</h1> 
+            <Container>
+                <h1>Contact Page</h1> 
+            </Container>
         </Layout>
     )
 }

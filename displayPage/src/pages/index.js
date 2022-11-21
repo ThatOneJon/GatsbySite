@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container"
 export default function Home() {
   return (
       <Layout>
-        <Container>
+        <Container style={{backgroundColor:"black"}}>
           <h1>Homepage</h1>
         </Container>
       </Layout>
