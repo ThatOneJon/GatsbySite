@@ -11,10 +11,10 @@ export default function Layout({ children }){
             <Navigation />
         <Container fluid className=" mt-3">
             <Row className="justify-content-start">
-                <Col lg={1}>
+                <Col>
                     <Sidebar  />
                 </Col>
-                <Col lg={10}>
+                <Col lg={9}>
                     <Container className="mt-2">
                         {children}
                     </Container>

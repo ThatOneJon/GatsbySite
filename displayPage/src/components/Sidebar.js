@@ -6,7 +6,7 @@ export default function Sidebar(){
     return(
         <Wrapper>
             <div className="main">
-                <p>Sidebar</p>
+                <h1>Tags</h1>
             </div>
         </Wrapper>
     )
