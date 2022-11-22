@@ -14,8 +14,10 @@ export default function Layout({ children }){
                 <Col lg={1}>
                     <Sidebar  />
                 </Col>
-                <Col >
-                    {children}
+                <Col lg={10}>
+                    <Container className="mt-2">
+                        {children}
+                    </Container>
                 </Col>
             </Row>
         </Container>
