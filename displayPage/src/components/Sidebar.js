@@ -32,11 +32,17 @@ const Wrapper = styled.section`
         color: red;
     }
     .main{
-        background-color: green;
+        background-color: #13a13e;
         min-width: 18vw;
         height: 100vh;
         margin-left: 3px;
         text-align: center;
+    }
+    @media only screen and (min-width: 1000px) {
+        .main{
+            position: fixed;
+
+        }
     }
 
     h1 {

@@ -10,10 +10,10 @@ import {Link} from "gatsby"
 
 export default function Navigation(){
     return (
-        <Navbar sticky="top" variant="dark" bg="dark" className="justify-content-between p-3">
+        <Navbar sticky="top" variant="dark" bg="dark" className="justify-content-between p-4" style={{fontSize:"25px"}}>
                 <Container>
                 <Navbar.Brand as={Link} to ="/">
-                    <FaCarSide style={{color:"white", marginRight:"5px"}} />
+                    <FaCarSide style={{color:"white", marginRight:"5px", fontSize:"30px"}} />
                     CarStats
                 </Navbar.Brand>
                     <Nav className="w-75 justify-content-between">
