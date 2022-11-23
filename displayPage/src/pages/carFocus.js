@@ -20,7 +20,7 @@ export default function CarFocus(state){
                     <Col lg={6} >
                         <Card border="primary">
                         <Card.Body>
-                            <Card.Img src={`${car.image}`} />
+                            <Card.Img src={`${car.image}`} /> 
                             <Card.Title className="text-decoration-underline text-center mb-3 display-4">{Name.toUpperCase()}</Card.Title>
                             <Card.Text>Miles / Gallon: <strong> {car.Miles_per_Gallon} </strong> >> in Liters/100km: <strong> { Math.round( 235.21 / car.Miles_per_Gallon)} </strong> </Card.Text>
                             <Card.Text>Cylinders: {car.Cylinders} </Card.Text>

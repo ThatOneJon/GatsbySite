@@ -10,6 +10,10 @@ export default function Sidebar(){
     let countries = data.map((c) => c.Origin)
     let countrySet = new Set(countries)
 
+    function handleClick(event){
+        console.log(event.target.tag)
+    }
+
     return(
         <Wrapper>
             <div className="main">
@@ -20,7 +24,7 @@ export default function Sidebar(){
                 </ul>
                 <h2>Countries ( {countrySet.size} )</h2>
                 <ul>
-                    {countrySet.size > 0 ? Array.from(countrySet).map(country => (<li>{country}</li>)) : null}
+                    {countrySet.size > 0 ? Array.from(countrySet).map(country => (<li  > <a  onClick = {(event) => handleClick(event) }  href="#"> {country} </a> </li>)) : null}
                 </ul>
             </div>
         </Wrapper>
