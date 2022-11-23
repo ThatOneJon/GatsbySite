@@ -55,5 +55,137 @@
       "Year":"1970-01-01",
       "Origin":"USA",
       "image": "./images/chevrolet-chevelle.jpg"
+   },
+   {
+      "Name":"plymouth valiant",
+      "Miles_per_Gallon":18,
+      "Cylinders":6,
+      "Displacement":225,
+      "Horsepower":105,
+      "Weight_in_lbs":3121,
+      "Acceleration":16.5,
+      "Year":"1973-01-01",
+      "Origin":"USA"
+   },
+   {
+      "Name":"chevrolet nova custom",
+      "Miles_per_Gallon":16,
+      "Cylinders":6,
+      "Displacement":250,
+      "Horsepower":100,
+      "Weight_in_lbs":3278,
+      "Acceleration":18,
+      "Year":"1973-01-01",
+      "Origin":"USA"
+   },
+   {
+      "Name":"amc hornet",
+      "Miles_per_Gallon":18,
+      "Cylinders":6,
+      "Displacement":232,
+      "Horsepower":100,
+      "Weight_in_lbs":2945,
+      "Acceleration":16,
+      "Year":"1973-01-01",
+      "Origin":"USA"
+   },
+   {
+      "Name":"ford maverick",
+      "Miles_per_Gallon":18,
+      "Cylinders":6,
+      "Displacement":250,
+      "Horsepower":88,
+      "Weight_in_lbs":3021,
+      "Acceleration":16.5,
+      "Year":"1973-01-01",
+      "Origin":"USA"
+   },
+   {
+      "Name":"plymouth duster",
+      "Miles_per_Gallon":23,
+      "Cylinders":6,
+      "Displacement":198,
+      "Horsepower":95,
+      "Weight_in_lbs":2904,
+      "Acceleration":16,
+      "Year":"1973-01-01",
+      "Origin":"USA"
+   },
+   {
+      "Name":"volkswagen super beetle",
+      "Miles_per_Gallon":26,
+      "Cylinders":4,
+      "Displacement":97,
+      "Horsepower":46,
+      "Weight_in_lbs":1950,
+      "Acceleration":21,
+      "Year":"1973-01-01",
+      "Origin":"Europe"
+   },
+   {
+      "Name":"chevrolet impala",
+      "Miles_per_Gallon":11,
+      "Cylinders":8,
+      "Displacement":400,
+      "Horsepower":150,
+      "Weight_in_lbs":4997,
+      "Acceleration":14,
+      "Year":"1973-01-01",
+      "Origin":"USA"
+   },
+   {
+      "Name":"ford country",
+      "Miles_per_Gallon":12,
+      "Cylinders":8,
+      "Displacement":400,
+      "Horsepower":167,
+      "Weight_in_lbs":4906,
+      "Acceleration":12.5,
+      "Year":"1973-01-01",
+      "Origin":"USA"
+   },
+   {
+      "Name":"volkswagen rabbit custom",
+      "Miles_per_Gallon":29,
+      "Cylinders":4,
+      "Displacement":97,
+      "Horsepower":78,
+      "Weight_in_lbs":1940,
+      "Acceleration":14.5,
+      "Year":"1977-01-01",
+      "Origin":"Europe"
+   },
+   {
+      "Name":"pontiac sunbird coupe",
+      "Miles_per_Gallon":24.5,
+      "Cylinders":4,
+      "Displacement":151,
+      "Horsepower":88,
+      "Weight_in_lbs":2740,
+      "Acceleration":16,
+      "Year":"1977-01-01",
+      "Origin":"USA"
+   },
+   {
+      "Name":"toyota corolla liftback",
+      "Miles_per_Gallon":26,
+      "Cylinders":4,
+      "Displacement":97,
+      "Horsepower":75,
+      "Weight_in_lbs":2265,
+      "Acceleration":18.2,
+      "Year":"1977-01-01",
+      "Origin":"Japan"
+   },
+   {
+      "Name":"ford mustang ii 2+2",
+      "Miles_per_Gallon":25.5,
+      "Cylinders":4,
+      "Displacement":140,
+      "Horsepower":89,
+      "Weight_in_lbs":2755,
+      "Acceleration":15.8,
+      "Year":"1977-01-01",
+      "Origin":"USA"
    }
    ]

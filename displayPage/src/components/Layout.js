@@ -9,9 +9,9 @@ export default function Layout({ children }){
     return(
         <>
             <Navigation />
-        <Container fluid className=" mt-3">
+        <Container fluid className=" mt-3" >
             <Row className="justify-content-start">
-                <Col>
+                <Col lg>
                     <Sidebar  />
                 </Col>
                 <Col lg={9}>
