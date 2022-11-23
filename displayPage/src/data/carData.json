@@ -54,6 +54,6 @@
       "Acceleration":12,
       "Year":"1970-01-01",
       "Origin":"USA",
-      "image": "../images/chevrolet-chevelle.jpg"
+      "image": "./images/chevrolet-chevelle.jpg"
    }
    ]
