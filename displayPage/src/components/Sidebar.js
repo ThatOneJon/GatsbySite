@@ -11,7 +11,11 @@ export default function Sidebar(){
     let countrySet = new Set(countries)
 
     function handleClick(event){
-        console.log(event.target.tag)
+        event.target.name === "country" 
+        ? 
+        console.log(event.target.value) 
+        :
+        console.log(event.target.value)
     }
 
     return(
@@ -20,11 +24,11 @@ export default function Sidebar(){
                 <h1>Tags</h1>
                 <h2> Years ( {otheryears.size} ) </h2>
                 <ul>
-                    {otheryears.size > 0 ? Array.from(otheryears).map((year) => (<li>{year}</li>)) : null}
+                    {otheryears.size > 0 ? Array.from(otheryears).map((year) => (<li style={{marginTop:"10px"}}><button value={year} name ="year" onClick={(event) => handleClick(event)}>{year} ( {years.filter(y => y === year).length} ) </button></li>)) : null}
                 </ul>
                 <h2>Countries ( {countrySet.size} )</h2>
                 <ul>
-                    {countrySet.size > 0 ? Array.from(countrySet).map(country => (<li  > <a  onClick = {(event) => handleClick(event) }  href="#"> {country} </a> </li>)) : null}
+                    {countrySet.size > 0 ? Array.from(countrySet).map(country => (<li style={{marginTop:"10px"}} > <button name="country" onClick = {(event) => handleClick(event) } value={country}> {country} ( {countries.filter(word => word === country).length} ) </button> </li>)) : null}
                 </ul>
             </div>
         </Wrapper>
