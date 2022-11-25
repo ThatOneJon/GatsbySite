@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import Card from "react-bootstrap/Card"
 import data from "../data/carData.json"
 import { navigate } from "gatsby"
 
@@ -15,9 +14,9 @@ export default function Sidebar(){
     function handleClick(event){
         event.target.name === "country" 
         ? 
-        navigate("/carQuery", { state:{value:event.target.value, country:true }}) 
+        navigate("/carQuery", { state:{value:event.target.value,year :false, country:true }}) 
         :
-        navigate("/carQuery", { state:{value:event.target.value, year:true}}) 
+        navigate("/carQuery", { state:{value:event.target.value, year:true, country: false}}) 
     }
 
     return(

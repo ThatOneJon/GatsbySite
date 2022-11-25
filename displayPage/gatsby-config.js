@@ -5,8 +5,17 @@
  */
 
 /**
+ * 
+
  * @type {import('gatsby').GatsbyConfig}
  */
+
+
 module.exports = {
+  flags: {
+    DEV_SSR: true
+  },
   plugins: [`gatsby-plugin-styled-components`, `gatsby-plugin-react-helmet`],
 }
+
+

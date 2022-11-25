@@ -11,7 +11,7 @@ export default function CarData(){
 
     let car = cars.map((one) => (<Col><Card bg="light" className="mt-3">
         <Card.Body as={Link} to="/carFocus" state={{ car: one.Name }}>
-            <Card.Img src={`${one.image}`} alt="Currently no image avalable! " />
+            <Card.Img src="#" alt="Currently no image avalable! " />
             <Card.Title className="text-decoration-underline text-center mb-3">{one.Name.toUpperCase()}</Card.Title>
             <Card.Text>Miles / Gallon: <strong> {one.Miles_per_Gallon} </strong> >> in Liters/100km: <strong> { Math.round( 235.21 / one.Miles_per_Gallon)} </strong> </Card.Text>
             <Card.Text>Cylinders: {one.Cylinders} </Card.Text>

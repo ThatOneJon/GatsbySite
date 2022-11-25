@@ -10,11 +10,15 @@ import SEO from "../components/SEO"
 
 
 export default function CarFocus(state){
-    let Name = state.location.state.car
+    const[Name, setName] = React.useState("None")
+    React.useEffect(() => {
+        setName(state.location.state.car)
+    }, [state])
+
     let car = cars.filter(car => car.Name === Name)[0]
     return(
         <Layout>
-            <SEO title = {car.Name} />
+            <SEO title = {car && car.Name} />
             <Wrapper>
             { car &&
             <Container fluid style={{backgroundColor:"#daebdf", height:"100vh"}} >
