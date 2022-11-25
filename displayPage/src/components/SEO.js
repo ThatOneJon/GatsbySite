@@ -3,9 +3,11 @@ import {Helmet} from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 
-const SEO = () => {
+const SEO = ({title, description}) => {
     return(
-        <Helmet title="Cars">
+        <Helmet title={title} meta = {[{
+            name:`description`, content: description
+        }]}>
             
         </Helmet>
     )

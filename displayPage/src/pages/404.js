@@ -3,10 +3,12 @@ import Layout from "../components/Layout"
 import { BiCommentError } from "react-icons/Bi"
 import  Container  from "react-bootstrap/Container"
 import  Row  from "react-bootstrap/Row"
+import SEO from "../components/SEO"
 
 export default function Error(){
     return(
         <Layout>
+            <SEO title="404" />
             <Container fluid  >
                 <Row className="text-center align-items-center justify-content-center" style={{ height:"60vh"}} >
                     <h1 style={{fontSize:"90px"}}>  404 - Error - Page not found ! <BiCommentError style={{fontSize:"2em", marginTop:"30px"}} /> </h1>

@@ -8,7 +8,7 @@ import SEO from "../components/SEO"
 export default function Home() {
   return (
       <Layout>
-        <SEO />
+        <SEO title = "Cars" description ="The car stats homepage" />
         <Container fluid="sm" style={{backgroundColor:"#"}}>
           < CarData />
         </Container>

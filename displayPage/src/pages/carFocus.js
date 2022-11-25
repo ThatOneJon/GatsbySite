@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col"
 import Card from "react-bootstrap/Card"
 import cars from "../data/carData.json"
 import styled from "styled-components"
+import SEO from "../components/SEO"
 
 
 export default function CarFocus(state){
@@ -13,6 +14,7 @@ export default function CarFocus(state){
     let car = cars.filter(car => car.Name === Name)[0]
     return(
         <Layout>
+            <SEO title = {car.Name} />
             <Wrapper>
             { car &&
             <Container fluid style={{backgroundColor:"#daebdf", height:"100vh"}} >

@@ -5,12 +5,15 @@ import Card from 'react-bootstrap/Card';
 import Collapse from 'react-bootstrap/Collapse';
 import {Link} from "gatsby"
 import Row from "react-bootstrap/Row"
+import SEO from "../components/SEO"
+
 
 export default function About(){
     const [open1, setOpen1] = useState(true);
     const [open, setOpen] = useState(false);
     return(
         <Layout>
+          <SEO title="About" />
             <h1 style={{textAlign:"center", textDecoration:"underline"}}>About this site!</h1>
             <Button
         onClick={() => setOpen1(!open1)}
